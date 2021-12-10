@@ -5,10 +5,50 @@
 .center{
     width:1366px;
     height: 653px;
+    position: absolute;
+    z-index: 3;
     object-fit: cover;
+
     
 }
 *{
     margin: 0;
     padding: 0;
+}
+.center1{
+    position: absolute;
+    left: 550px;
+    top: 300px;
+    bottom: 0;
+    z-index: 12;
+}
+h1{
+    color: white;
+}
+.pre-loder{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    z-index: -1;
+    background-color: white;
+}
+.loder{
+    size: 500px;
+}
+.center2{
+    display: none;
+}
+.abc{
+    display: block;
+}
+.ab{
+    display:block;
+}
+.play{
+    position: absolute;
+    z-index: 55;
+}
+.pause{
+    position: absolute;
+    z-index: 65;
 }
