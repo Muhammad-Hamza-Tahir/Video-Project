@@ -8,9 +8,7 @@
     position: absolute;
     z-index: 3;
     object-fit: cover;
-
-    
-}
+    }
 *{
     margin: 0;
     padding: 0;
@@ -26,29 +24,49 @@ h1{
     color: white;
 }
 .pre-loder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    top: 100px;
-    left: 350px;
-    z-index: -1;
+    /* top: 100px;
+    left: 350px; */
+    z-index: 999;
     background-color: white;
+    width: 1365px;
+    height: 653px;
+    visibility: visible;
 }
 .loder{
     size: 500px;
 }
-.center2{
-    display: none;
-}
-.abc{
-    display: block;
-}
-.ab{
-    display:block;
-}
-.play{
-    position: absolute;
-    z-index: 55;
-}
-.pause{
+/* h1{
+    visibility: hidden;
+} */
+
+.play1{
+    width: 90px;
     position: absolute;
     z-index: 65;
+    /* margin-left:40px; */
+}
+.switch{
+    position: absolute;
+    background-color: blue;
+    z-index: 100;
+    border: 1px solid black;
+    width: 50px;
+    height: 20px;
+    margin-top: -5px;
+    margin-left: -90px;
+    /* visibility: visible; */
+}
+.switch1{
+    margin-left: -50px;
+    background-color: blue;
+    
+}
+.ppp{
+    position:absolute;
+    /* z-index: -999; */
+    visibility: hidden;
 }
